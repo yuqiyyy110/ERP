@@ -1,0 +1,40 @@
+.menuDiv {
+    width: 184px;
+    border: 1px solid #dedede;
+    box-shadow: 0px 0px 20px #cccccc;
+    padding:5px;
+    padding-bottom:0px;
+    display: none;
+    background-color: #ffffff;
+}
+.rMenuLevel1 > li{
+	margin-bottom:5px;
+}
+.rMenuLevel1 > li span {
+    background-color: #edf1f4;
+    width: 154px;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    cursor:pointer;
+    text-align:left;
+    padding-left: 30px;
+}
+ul.rMenuLevel2 {
+    background-color: #ffffff;
+}
+.rMenuLevel2 > li{
+	padding-left:40px;
+}
+.rMenuLevel2 > li span {
+    background-color: #ffffff;
+    width: 132px;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    background: url(../../../../img/icon/icon_leftMenu.png) 0px 0px no-repeat;
+    position: relative;
+    left: 0px;
+    text-align:left;
+    padding-left: 25px;
+}

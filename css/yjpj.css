@@ -1,0 +1,34 @@
+.bg-content .content .deal-case .search-area {
+    background-color: #EDF1F4;
+    padding: 20px;
+}
+
+.bg-content .content .deal-case .search-area table {
+    float: left;
+}
+
+.bg-content .content .deal-case .search-area table td {
+    border: none;
+    text-align: left;
+}
+
+.bg-content .content .deal-case .search-area label {
+    height: 36px;
+    line-height: 36px;
+}
+
+.bg-content .content .deal-case .search-area .btn-search {
+    display: block;
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #FFBB3F;
+    color: #ffffff;
+    float: right;
+}
+
+.bg-content .content .deal-case .search-area .select {
+    width: 100px;
+}

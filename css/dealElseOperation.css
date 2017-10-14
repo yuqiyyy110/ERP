@@ -1,0 +1,65 @@
+.top-content{
+	width: 100%;
+	background: #edf1f4;
+	padding: 10px 10px 50px;
+	position: relative;
+}
+.top-content .sub-search{
+	display: inline-block;
+}
+.top-content .search{
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	width: 100px;
+	height: 35px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	background: #ffbb3f;
+	color: #fff;
+}
+.top-content .search:hover{
+	background: #FFD079;
+}
+.main .sun-top{
+	height: 70px;
+	width: 100%;
+	line-height: 80px;
+	position: relative;
+}
+.main .sun-top .title{
+    height: 20px;
+    border-left: 4px solid #4285f4;
+    font-size: 16px;
+    padding-left: 10px;
+    position: absolute;
+    left: 0;
+    top: 25px;
+    line-height: 20px;
+}
+.main .sun-top .add-case{
+	position: absolute;
+	right: 0;
+	top: 17px;
+	width: 100px;
+	height: 35px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	background: #49CEAC url(../img/add.png) 13px center no-repeat;
+	color: #fff;
+	padding-left: 20px;
+}
+.main .sun-top .add-case:hover{
+	background-color: #67D6BA;
+}
+.state1{
+	color: #FF9900;
+}
+.state2{
+	color: #DCA3C5;
+}
+#subContent{
+	display: none;
+}

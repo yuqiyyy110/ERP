@@ -1,0 +1,66 @@
+.contLeft {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 220px;
+	overflow: auto;
+	border-right: 1px solid #e4e4e4;
+}
+.contLeft .search {
+	width: 200px;
+	height: 38px;
+	margin: 7px auto;
+}
+.contLeft .search input {
+	float: left;
+    width: 160px;
+    height: 38px;
+    line-height: 36px;
+    outline: none;
+    border: 1px solid #dcdee7;
+}
+.contLeft .search span {
+	float: left;
+    width: 40px;
+    height: 38px;
+    border: 1px solid #dcdee7;
+    border-left-width: 0;
+    cursor: pointer;
+	background: url(/record/img/icon/icon-search.png) no-repeat center;
+}
+.contRight {
+	position: absolute;
+	top: 0;
+	left: 230px;
+	right: 0;
+	bottom: 0;
+	padding: 10px;
+	overflow-x: auto;
+}
+#innerBox {
+	height: 100%;
+}
+.contRight .zhjgBox {
+	float: left;
+	margin-right: 10px;
+	position: relative;
+	width: 258px;
+	height: 100%;
+	border: 1px solid #e6e6e6;
+	border-radius: 3px;
+}
+.contRight .zhjgBox .headPart {
+	height: 45px;
+	line-height: 45px;
+	padding-left: 18px;
+	background-color: #edf1f4;
+}
+.contRight .zhjgBox .bodyPart {
+	position: absolute;
+	top: 45px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow: auto;
+}

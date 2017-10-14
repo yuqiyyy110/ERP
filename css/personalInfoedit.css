@@ -1,0 +1,147 @@
+.clear {
+	clear: both;
+}
+
+.add-info {
+	float: right;
+	display: inline-block;
+	width: 40px;
+	height: 100%;
+	line-height: 25px;
+	color: #4285F4;
+	cursor: pointer;
+}
+
+.delete-info {
+	float: right;
+	background: url("/record/img/personalInfo/delete.png") no-repeat center;
+	width: 20px;
+	height: 100%;
+	cursor: pointer;
+}
+
+.jobinfo-head {
+	width: 100%;
+	height: 25px;
+	background: url(../img/personalInfo/baseinfo-title-bg.png) no-repeat left center;
+}
+
+.baseinfo-left {
+	float: left;
+	width: 20%;
+	height: 100%;
+}
+
+.baseinfo-left img {
+	margin-left: 40%;
+	margin-top: 15px;
+}
+
+.upload {
+	display: inline-block;
+	width: 90px;
+	height: 30px;
+	border: none;
+	background: #FE9E40;
+	color: #fff;
+	margin-left: 46%;
+	margin-top: 15px;
+}
+
+.baseinfo-right {
+	float: right;
+	width: 80%;
+	height: 100%;
+	box-sizing: border-box;
+	padding: 15px;
+}
+
+.jobinfo-main li span {
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #333333;
+}
+
+.info-main {
+	margin-left: 10px;
+}
+
+.positioninfo-main li {
+	height: 40px;
+	width: 100%;
+}
+
+.maxwidth{
+	width: 24%;
+	float: left;
+}
+
+.jobinfo-main {
+	box-sizing: border-box;
+	padding: 15px;
+	width: 100%;
+	background: #EDF1F4;
+	margin: 10px 0;
+}
+
+.jobinfo-main li {
+	float: left;
+	width: 33%;
+	height: 30px;
+}
+
+.positioninfo-main,
+.educationinfo-main {
+	box-sizing: border-box;
+	padding: 15px;
+	width: 100%;
+	background: #EDF1F4;
+	margin: 10px 0;
+}
+
+.educationinfo-main li {
+	margin-left: 67px;
+	height: 40px;
+}
+
+.positioninfo-main li span,
+.educationinfo-main li span {
+	display: inline-block;
+	height: 40px;
+	;
+	line-height: 40px;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #333;
+}
+
+.duty {
+	margin-left: 20px;
+	color: #6497F5 !important;
+}
+.footer{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 60px;
+	background: #F7F7F7;
+}
+.btn{
+	position: absolute;
+	top: 10px;
+	bottom: 0;
+	
+	right: 10px;
+}
+.btn-blue{
+	border-radius:3px;
+	padding: 10px 35px;
+	background:#6897F7;
+	color: #fff;
+	border: none;
+	margin: 0 10px;
+}

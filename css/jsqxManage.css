@@ -1,0 +1,35 @@
+.contRight {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 10px;
+	overflow-x: auto;
+}
+#innerBox {
+	height: 100%;
+}
+.contRight .zhjgBox {
+	float: left;
+	margin-right: 10px;
+	position: relative;
+	width: 258px;
+	height: 100%;
+	border: 1px solid #e6e6e6;
+	border-radius: 3px;
+}
+.contRight .zhjgBox .headPart {
+	height: 45px;
+	line-height: 45px;
+	padding-left: 18px;
+	background-color: #edf1f4;
+}
+.contRight .zhjgBox .bodyPart {
+	position: absolute;
+	top: 45px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow: auto;
+}

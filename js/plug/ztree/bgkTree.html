@@ -1,0 +1,25 @@
+
+
+<ul id="treeDemo" class="ztree"></ul>
+
+<div id="rMenu" class="menuDiv">
+	<ul class="rMenuLevel1">
+		<li id="menu_add">
+			<span>新增节点</span>
+			<ul class="rMenuLevel2">
+			    <li onclick="addTreeNode('up');"><span>上方新增</span></li>
+			    <li onclick="addTreeNode('down');"><span>下方新增</span></li>
+			    <li onclick="addTreeNode('child');"><span>新增子节点</span></li>
+			</ul>
+		</li>
+		<li id="menu_del" onclick="removeTreeNode();"><span>删除节点</span></li>
+		<li id="menu_addreport" onclick="addReport();"><span>挂接报告</span></li>
+		<li id="menu_showreport" onclick = "showReport();"><span>查看报告</span></li>
+		<li id="menu_editreport" onclick = "editReport();"><span>编辑报告</span></li>
+		<li id="menu_delreport" onclick = "removeTreeNode();"><span>删除报告</span></li>
+		<li id="menu_copyreport" onclick = "copyReport();"><span>复制报告</span></li>
+    </ul>
+</div>
+    
+
+

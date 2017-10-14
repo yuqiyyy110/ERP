@@ -1,0 +1,77 @@
+.contLeft {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 220px;
+	overflow: auto;
+	border-right: 1px solid #e4e4e4;
+}
+.contLeft .search {
+	width: 200px;
+	height: 38px;
+	margin: 7px auto;
+}
+.contLeft .search input {
+	float: left;
+    width: 160px;
+    height: 38px;
+    line-height: 36px;
+    outline: none;
+    border: 1px solid #dcdee7;
+}
+.contLeft .search span {
+	float: left;
+    width: 40px;
+    height: 38px;
+    border: 1px solid #dcdee7;
+    border-left-width: 0;
+    cursor: pointer;
+	background: url(/record/img/icon/icon-search.png) no-repeat center;
+}
+.contRight {
+	position: absolute;
+	top: 0;
+	left: 230px;
+	right: 0;
+	bottom: 0;
+	padding: 10px;
+	overflow-x: auto;
+}
+.mytask-tab{
+	width:100%;
+	margin-top: 10px;
+}
+.mytask-option{
+	width:100%;
+	height:35px;
+	border-bottom:1px solid #d3d9dd;
+}
+.mytask-title{
+	display: block;
+	width:110px;
+	height: 100%;
+	float: left;
+	font-size:14px;
+	color: #475669;
+	text-align:center;
+	cursor:pointer;
+}
+.mytask-option .active{
+	border-bottom:3px solid #5c89fe ;
+}
+.mytask-content,
+.mytask-item,
+.mytask-item li{
+	display:block;
+	width:100%;
+}
+.mytask-content{
+	margin-top: 24px;
+}
+.mytask-item li{
+	display:none;
+}
+.mytask-item .active{
+	display:block;
+}

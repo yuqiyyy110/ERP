@@ -1,0 +1,61 @@
+.nav-content{
+	color: #fff;
+	font-size: 14px;
+	padding-left:  10px;
+}
+.nav-content .nav-item{
+	height: 35px;
+	width: 100%;
+	line-height: 35px;
+	border-radius: 3px;
+	padding-left: 35px;
+	cursor: pointer;
+	margin: 10px 0;
+}
+.nav-content .nav-item.active{
+	background-color: #5c89fe;
+}
+.grxx{
+	background: url(../img/leftNav/grxx.png) 10px center no-repeat;
+}
+.blaj{
+	background: url(../img/leftNav/blaj.png) 10px center no-repeat;
+}
+.qtjcyw{
+	background: url(../img/leftNav/qtjcyw.png) 10px center no-repeat;
+}
+.jsjd{
+	background: url(../img/leftNav/jsjd.png) 10px center no-repeat;
+}
+.yjpj{
+	background: url(../img/leftNav/yjpj.png) 10px center no-repeat;
+}
+.ryjl{
+	background: url(../img/leftNav/ryjl.png) 10px center no-repeat;
+}
+.zrzj{
+	background: url(../img/leftNav/zrzj.png) 10px center no-repeat;
+}
+.ywyx{
+	background: url(../img/leftNav/ywyx.png) 10px center no-repeat;
+}
+.qtda{
+	background: url(../img/leftNav/qtda.png) 10px center no-repeat;
+}
+.tqsp{
+	background: url(../img/leftNav/tqsp.png) 10px center no-repeat;
+}
+.tqss{
+	background: url(../img/leftNav/tqss.png) 10px center no-repeat;
+}
+.sprw{
+	background: url(../img/leftNav/sprw.png) 10px center no-repeat;
+}
+.fcrw{
+	background: url(../img/leftNav/fcrw.png) 10px center no-repeat;
+}
+#dazxNav,
+#wdrwNav,
+#xtglNav{
+	display: none;
+}

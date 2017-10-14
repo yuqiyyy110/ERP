@@ -1,0 +1,246 @@
+table{
+	width: 100%;
+}
+td, th{
+	border: 1px solid #BFCBD9;
+	padding: 10px;
+	vertical-align: middle;
+	text-align: center;
+}
+th{
+	background: #EDF1F4;
+	font-weight: bold;
+}
+td>a{
+	color: #3E81E0;
+	cursor: pointer;
+	text-decoration: underline;
+	padding: 0 5px;
+}
+.wrap {
+	height: auto;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 20px;
+}
+.baseinfo-head{
+	width: 100%;
+	height: 25px;
+	background: url(../img/personalInfo/baseinfo-title-bg.png) no-repeat left center;
+}
+.baseinfo-title {
+	display: inline-block;
+	height: 100%;
+	line-height: 25px;
+	margin-left: 15px;
+	font-family: "微软雅黑";
+	font-size: 16px;
+}
+.baseinfo-main {
+	width: 100%;
+	height: 250px;
+	background: #EDF1F4;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+/*文本框 下拉列表 时间控件*/
+.common-formInfo{
+	width:100%;
+	overflow:hidden;
+}
+.common-formInfo li {
+	float: left;
+	height: 40px;
+	width: 50%;
+}
+
+.common-formInfo li span{
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #333333;
+}
+.info-title {
+	width: 100px;
+	text-align: right;
+}
+.edit-main {
+	height: 28px;
+	width: 50%;
+	border: 1px solid #DCDEE7 !important;
+	box-sizing: border-box;
+	padding-left: 5px;
+
+}
+.laydate-icon{
+	padding-right:40px !important;
+	background: url('/record/img/personalInfo/datebg.png') no-repeat left center; 
+}
+select {
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	-ms-appearance:none;
+	background: url("/record/img/personalInfo/arrow.png") no-repeat 95% center;
+	background-color: #fff;
+	box-sizing: border-box;
+	padding-left: 5px;
+
+}
+.pop-over{
+	position:absolute;
+	top:0;
+	bottom: 0;
+	left:0;
+	right: 0;
+	background:black;
+	opacity: .50;
+	z-index:100;
+}
+.pop{
+    width: 650px;
+    height: 450px;
+    border-radius: 13px 13px 0 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -225px -325px;
+    z-index: 101;
+    background: #FFF;
+	display: none;
+}
+.pop .pop-header{
+	height: 45px;
+	width: 100%;
+	border-radius: 10px 10px 0 0;
+	background: #5C89FE;
+	color: #FFF;
+	line-height: 45px;
+	padding-left: 20px;
+	font-size: 16px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.pop #popContent {
+	position: absolute;
+	top: 45px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 10px;
+	overflow: auto;
+}
+.pop .close{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	right: 10px;
+	top: 8px;
+	cursor: pointer;
+	background: url(../img/close.png) center no-repeat;
+}
+.pop .pop-content{
+	height: 100%;
+	width: 100%;
+	padding: 55px 10px 60px;
+}
+.pop .footer-btn{
+    width: 210px;
+    height: 40px;
+    position: absolute;
+    bottom: 10px;
+    left: 250px;
+}
+.pop .footer-btn .middle-btn{
+    width: 80px;
+    height: 30px;
+    border: none;
+    background: #6897F7;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+/*
+ * 名称：组件模拟
+ * 适用：所有表单组件
+ */
+.radio{
+	padding-left: 25px;
+	background: url(../img/icon-radio.png) 0px -59px no-repeat;
+	cursor: pointer;
+}
+.ver .radio{
+	display: block;
+}
+.radio.checked{
+    background-position: 0 3px;
+}
+.checkbox{
+	padding-left: 25px;
+	background: url(../img/icon-radio.png) 0px -59px no-repeat;
+	cursor: pointer;
+}
+.ver .checkbox{
+	display: block;
+}
+.checkbox.checked{
+    background-position: 0 3px;
+}
+.select{
+	position: relative;
+	display: inline-block;
+}
+.select div {
+	position: relative;
+	width: 100%;
+	background-color: #FFFFFF;
+}
+.select div span{
+	display: block;
+	height: 36px;
+	line-height: 36px;
+	padding: 0px 15px;
+	border: 1px solid #dedede;
+	position: relative;
+	cursor: pointer;
+}
+.select div i{
+	background: url(../img/icon-select-arrow.png) no-repeat;
+	position: absolute;
+	display: block;
+    width: 12px;
+    height: 8px;
+    right: 10px;
+    top: 17px;
+}
+.select.open div i{
+	background-position: 0px -23px;
+}
+.select ul{
+	margin: 0;
+	padding: 0;
+	border: 1px solid #dedede;
+	width: 100%;
+	border-top: 0;
+	display: none;
+	position: absolute;
+	background-color: #FFFFFF;
+	z-index: 2;
+}
+.select li{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	padding: 0px 15px;
+	height: 39px;
+	line-height: 39px;
+	cursor: pointer;
+}
+.select li:hover{
+	background-color:#dedede ;
+}
