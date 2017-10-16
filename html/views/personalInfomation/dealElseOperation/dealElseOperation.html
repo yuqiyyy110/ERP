@@ -1,0 +1,120 @@
+<link rel="stylesheet" type="text/css" href="css/dealElseOperation.css">
+
+<p class="goBack">返回</p>
+<div class="top-content">
+	<div class="sub-search">
+		<span>业务类别：</span>
+		<select>
+			<option value="volvo">Volvo</option>
+		</select>
+	</div>
+	<div class="sub-search">
+		<span>案件类别：</span>
+		<input />
+	</div>
+	<div class="sub-search">
+		<span>案号：</span>
+		<input />
+	</div>
+	<div class="sub-search">
+		<span>状态：</span>
+		<select>
+			<option value="volvo">Volvo</option>
+		</select>
+	</div>
+	<button class="search">查询</button>
+</div>
+<div class="main">
+	<div class="sun-top">
+		<p class="title">新增案件列表</p>
+		<button class="add-case">新增案件</button>
+	</div>
+	<table>
+		<thead>
+			<th>序号</th>
+			<th>案号</th>
+			<th>案件类别</th>
+			<th>案件名称</th>
+			<th>当事人</th>
+			<th>案由</th>
+			<th>受理日期</th>
+			<th>结案日期</th>
+			<th>其他办案人员</th>
+			<th>状态</th>
+			<th>操作人</th>
+			<th>操作</th>
+		</thead>
+		<tr>
+			<td>1</td>
+			<td>案号数据</td>
+			<td>类别</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td class="state1">编辑中/正在审批</td>
+			<td></td>
+			<td>
+				<a class="link">编辑</a>
+				<a class="link">查看</a>
+				<a class="link">发起审批</a>
+				<a class="link">删除</a>
+			</td>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>案号数据</td>
+			<td>类别</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td class="state2">审批通过</td>
+			<td></td>
+			<td>
+				<a class="link">编辑</a>
+				<a class="link">查看</a>
+				<a class="link">发起审批</a>
+				<a class="link">删除</a>
+			</td>
+		</tr>
+	</table>
+	<div id="subContent">
+		<div class="pop-content">
+			<div>
+				<span>工作名称：</span>
+				<input />
+			</div>
+			<div>
+				<span>工作类型：</span>
+				<select>
+					<option value="volvo">vo</option>
+				</select>
+			</div>
+			<div>
+				<span>工作时段：</span>
+			</div>
+			<div>
+				<span>工作内容：</span>
+				<input />
+			</div>
+			<div>
+				<span>审核人：</span>
+				<select>
+					<option value="volvo">vo</option>
+				</select>
+			</div>
+		</div>
+		<div class="footer-btn">
+			<button id="save" class="middle-btn">暂存</button>
+			<button id="submit" class="middle-btn">提交审核</button>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+	addJS([js.dealElseOperation]);
+</script>

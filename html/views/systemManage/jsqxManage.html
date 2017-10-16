@@ -1,0 +1,61 @@
+<link rel="stylesheet" type="text/css" href="css/tabs.css">
+<link rel="stylesheet" type="text/css" href="css/jsqxManage.css">
+<link rel="stylesheet" type="text/css" href="js/plug/ztree/css/zTreeStyle/zTreeStyle.css" />
+
+<div class="contRight">
+	<div id="innerBox">
+		<div class="zhjgBox">
+			<div class="headPart">角色</div>
+			<div class="bodyPart">
+				<ul id="roleTree" class="ztree ry"></ul>
+			</div>
+		</div>
+		<div class="zhjgBox">
+			<div class="headPart">功能权限</div>
+			<div class="bodyPart">
+				<ul id="funcTree" class="ztree ry"></ul>
+			</div>
+		</div>
+		<div class="zhjgBox">
+			<div class="headPart">审批权限</div>
+			<div class="bodyPart">
+				<ul id="spqxTree" class="ztree ry"></ul>
+			</div>
+		</div>
+		<div class="zhjgBox">
+			<div class="headPart">申诉权限</div>
+			<div class="bodyPart">
+				<ul id="ssqxTree" class="ztree ry"></ul>
+			</div>
+		</div>
+		<div class="zhjgBox">
+			<div class="headPart">复议权限</div>
+			<div class="bodyPart">
+				<ul id="fcqxTree" class="ztree ry"></ul>
+			</div>
+		</div>
+		<div class="zhjgBox">
+			<div class="headPart">数据权限</div>
+			<div class="bodyPart">
+				<div class="tabs tab2">
+					<a class="active">档案数据权限</a>
+					<a>案件数据权限</a>
+				</div>
+				<div class="tabContents tab2C">
+					<div class="show">
+						<ul id="dasjqxTree" class="ztree ry"></ul>
+					</div>
+					<div>
+						<ul id="ajsjqxTree" class="ztree ry"></ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+	addJS([
+		js.core,js.excheck,js.treeData
+	]);
+	setPage("jsqxgl");
+</script>

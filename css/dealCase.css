@@ -1,105 +1,109 @@
-.bg-content .content .deal-case {
-    padding: 20px;
+.deal-case {
+	padding: 20px;
 }
 
-.bg-content .content .deal-case .edit {
-    display: block;
-    float: right;
-    background: url(http://localhost:8080/record/img/icon-edit.png) no-repeat;
-    width: 24px;
-    height: 24px;
-    cursor: pointer;
+.deal-case .edit {
+	display: block;
+	float: right;
+	background: url(../img/icon-edit.png) no-repeat;
+	width: 24px;
+	height: 24px;
+	cursor: pointer;
 }
 
-.bg-content .content .deal-case .search-area {
-    background-color: #EDF1F4;
-    height: 75px;
-    margin-top: 40px;
-    padding: 20px;
+.deal-case .search-area {
+	background-color: #EDF1F4;
+	height: 75px;
+	margin-top: 40px;
+	padding: 20px;
 }
 
-.bg-content .content .deal-case .search-area input {
-    width: 230px;
-    height: 36px;
-    line-height: 36px;
-    margin: 0 6px;
-    border: 1px solid #DCDEE7;
+.deal-case .search-area input {
+	width: 230px;
+	height: 36px;
+	line-height: 36px;
+	margin: 0 6px;
+	border: 1px solid #DCDEE7;
 }
 
-.bg-content .content .deal-case .search-area label {
-    height: 36px;
-    line-height: 36px;
+.deal-case .search-area label {
+	height: 36px;
+	line-height: 36px;
 }
 
-.bg-content .content .deal-case .search-area .btn-search {
-    display: block;
-    width: 100px;
-    height: 36px;
-    line-height: 36px;
-    text-align: center;
-    border-radius: 4px;
-    background-color: #FFBB3F;
-    color: #ffffff;
-    float: right;
+.deal-case .search-area .btn-search {
+	display: block;
+	width: 100px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	border-radius: 4px;
+	background-color: #FFBB3F;
+	color: #ffffff;
+	float: right;
 }
 
-.bg-content .content .deal-case .tab {
-    border-bottom: 1px solid #D3D9DD;
+.deal-case .tab {
+	border-bottom: 1px solid #D3D9DD;
 }
 
-.bg-content .content .deal-case .tab li {
-    float: left;
-    height: 55px;
-    line-height: 55px;
-    border-bottom: 3px solid transparent;
-    padding: 0 10px;
-    margin: 0 10px;
-    margin-bottom: -1px;
-    cursor: pointer;
+.deal-case .tab li {
+	float: left;
+	height: 55px;
+	line-height: 55px;
+	border-bottom: 3px solid transparent;
+	padding: 0 10px;
+	margin: 0 10px;
+	margin-bottom: -1px;
+	cursor: pointer;
 }
 
-.bg-content .content .deal-case .tab .active {
-    border-bottom-color: #5C89FE;
+.deal-case .tab .active {
+	border-bottom-color: #5C89FE;
 }
 
-.bg-content .content .deal-case .tab-content .toolsbar-btns {
-    padding: 10px 10px;
+.deal-case .tab-content .toolsbar-btns {
+	padding: 10px 10px;
 }
 
-.bg-content .content .deal-case .tab-content .toolsbar-btns a {
-    float: left;
-    display: block;
-    width: 75px;
-    height: 27px;
-    line-height: 27px;
-    text-align: center;
-    cursor: pointer;
+.deal-case .tab-content .toolsbar-btns a {
+	float: left;
+	display: block;
+	width: 75px;
+	height: 27px;
+	line-height: 27px;
+	text-align: center;
+	cursor: pointer;
 }
 
-.bg-content .content .deal-case .tab-content .toolsbar-btns .active {
-    color: #FFF;
-    background-color: #5C89FE;
+.deal-case .tab-content .toolsbar-btns .active {
+	color: #FFF;
+	background-color: #5C89FE;
 }
 
-.bg-content .content .deal-case .tab-content .echarts .pie {
-    border: 1px solid #DCDCDC;
-    width: 600px;
-    height: 260px;
-    float: left;
+.deal-case .tab-content .echarts .pie {
+	width: 50%;
+	height: 400px;
+	float: left;
+	padding-left: 10px;
+}
+.deal-case .tab-content .echarts .pie:first-child {
+	padding-left: 0px;
+	padding-right: 10px;
 }
 
-.table {
-    margin-top: 20px;
+.deal-case .table {
+	margin-top: 20px;
 }
 
-.table .color1 {
-    background-color: #EDF1F4;
+.deal-case .table .color1 {
+	background-color: #EDF1F4;
 }
 
-.table .color2 {
-    background-color: #EDF7FF;
+.deal-case .table .color2 {
+	background-color: #EDF7FF;
 }
 
-.toolsbar-content>div {
-    display: none;
+.deal-case .toolsbar-content>div {
+	display: none;
 }

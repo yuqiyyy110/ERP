@@ -1,0 +1,43 @@
+<link rel="stylesheet" type="text/css" href="css/grjbxx.css" />
+<link rel="stylesheet" type="text/css" href="js/plug/ztree/css/zTreeStyle/zTreeStyle.css" />
+
+<div class="contLeft">
+	<div class="search">
+		<input type="text" placeholder="请输入人员名称" />
+		<span></span>
+	</div>
+	<div class="body">
+		<ul id="zzjgTree" class="ztree ry"></ul>
+	</div>
+</div>
+<div class="contRight">
+	<div class="mytask-tab">
+		<div class="mytask-option">
+			<span class="mytask-title active">干警司法档案</span>
+			<span class="mytask-title">干警信息填录</span>
+			<span class="mytask-title">档案统计查询</span>
+			<span class="mytask-title">档案一键导出</span>
+		</div>
+		<div class="mytask-content">
+			<ul class="mytask-item">
+				<li class="active">
+					干警司法档案
+				</li>
+				<li>
+					干警信息填录
+				</li>
+				<li>
+					档案统计查询
+				</li>
+				<li>
+					档案一键导出
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+	addJS([
+		js.core,js.excheck,js.treeData,js.recordCenter
+	]);
+</script>

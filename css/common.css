@@ -76,14 +76,14 @@ td>a{
 }
 .laydate-icon{
 	padding-right:40px !important;
-	background: url('/record/img/personalInfo/datebg.png') no-repeat left center; 
+	background: url(../img/personalInfo/datebg.png) no-repeat left center; 
 }
 select {
 	appearance: none;
 	-moz-appearance: none;
 	-webkit-appearance: none;
 	-ms-appearance:none;
-	background: url("/record/img/personalInfo/arrow.png") no-repeat 95% center;
+	background: url(../img/personalInfo/arrow.png) no-repeat 95% center;
 	background-color: #fff;
 	box-sizing: border-box;
 	padding-left: 5px;

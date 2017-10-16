@@ -1,105 +1,122 @@
 .bg-content .content .deal-case {
-  position: relative;
+	position: relative;
 }
+
 .bg-content .content .deal-case .edit {
-  display: block;
-  float: right;
-  background: url(http://localhost:8080/record/img/icon-edit.png) no-repeat;
-  width: 24px;
-  height: 24px;
-  cursor: pointer;
-  position: absolute;
-  top: -30px;
-  right: 0;
+	display: block;
+	float: right;
+	background: url(../img/icon-edit.png) no-repeat;
+	width: 24px;
+	height: 24px;
+	cursor: pointer;
+	position: absolute;
+	top: -30px;
+	right: 0;
 }
+
 .bg-content .content .deal-case .search-area {
-  background-color: #EDF1F4;
-  height: 75px;
-  margin-top: 40px;
-  padding: 20px;
+	background-color: #EDF1F4;
+	height: 75px;
+	margin-top: 40px;
+	padding: 20px;
 }
+
 .bg-content .content .deal-case .search-area input {
-  width: 230px;
-  height: 36px;
-  line-height: 36px;
-  margin: 0 6px;
-  border: 1px solid #DCDEE7;
+	width: 230px;
+	height: 36px;
+	line-height: 36px;
+	margin: 0 6px;
+	border: 1px solid #DCDEE7;
 }
+
 .bg-content .content .deal-case .search-area label {
-  height: 36px;
-  line-height: 36px;
+	height: 36px;
+	line-height: 36px;
 }
+
 .bg-content .content .deal-case .search-area .btn-search {
-  display: block;
-  width: 100px;
-  height: 36px;
-  line-height: 36px;
-  text-align: center;
-  border-radius: 4px;
-  background-color: #FFBB3F;
-  color: #ffffff;
-  float: right;
+	display: block;
+	width: 100px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	border-radius: 4px;
+	background-color: #FFBB3F;
+	color: #ffffff;
+	float: right;
 }
+
 .bg-content .content .deal-case .tab {
-  border-bottom: 1px solid #D3D9DD;
+	border-bottom: 1px solid #D3D9DD;
 }
+
 .bg-content .content .deal-case .tab li {
-  float: left;
-  height: 55px;
-  line-height: 55px;
-  border-bottom: 3px solid transparent;
-  padding: 0 10px;
-  margin: 0 10px;
-  margin-bottom: -1px;
-  cursor: pointer;
+	float: left;
+	height: 55px;
+	line-height: 55px;
+	border-bottom: 3px solid transparent;
+	padding: 0 10px;
+	margin: 0 10px;
+	margin-bottom: -1px;
+	cursor: pointer;
 }
+
 .bg-content .content .deal-case .tab .active {
-  border-bottom-color: #5C89FE;
+	border-bottom-color: #5C89FE;
 }
+
 .bg-content .content .deal-case .tab-content .sun-top {
-  height: 70px;
-  width: 100%;
-  line-height: 80px;
-  position: relative;
+	height: 70px;
+	width: 100%;
+	line-height: 80px;
+	position: relative;
 }
+
 .bg-content .content .deal-case .tab-content .sun-top .title {
-  height: 20px;
-  border-left: 4px solid #4285f4;
-  font-size: 16px;
-  padding-left: 10px;
-  position: absolute;
-  left: 0;
-  top: 25px;
-  line-height: 20px;
+	height: 20px;
+	border-left: 4px solid #4285f4;
+	font-size: 16px;
+	padding-left: 10px;
+	position: absolute;
+	left: 0;
+	top: 25px;
+	line-height: 20px;
 }
+
 .bg-content .content .deal-case .tab-content .sun-top .add-case {
-  position: absolute;
-  right: 0;
-  top: 17px;
-  width: 120px;
-  height: 35px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  background: #49CEAC url(http://localhost:8080/record/img/add.png) 13px center no-repeat;
-  color: #fff;
-  padding-left: 20px;
+	position: absolute;
+	right: 0;
+	top: 17px;
+	width: 120px;
+	height: 35px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	background: #49CEAC url(../img/add.png) 13px center no-repeat;
+	color: #fff;
+	padding-left: 20px;
 }
+
 .bg-content .content .deal-case .tab-content .sun-top .add-case:hover {
-  background-color: #67D6BA;
+	background-color: #67D6BA;
 }
+
 #subContent {
-  display: none;
+	display: none;
 }
+
 .table .color1 {
-  background-color: #EDF1F4;
+	background-color: #EDF1F4;
 }
+
 .table .color2 {
-  background-color: #EDF7FF;
+	background-color: #EDF7FF;
 }
-.toolsbar-content > div {
-  display: none;
+
+.toolsbar-content>div {
+	display: none;
 }
-.pop-content > div {
-  height: 40px;
+
+.pop-content>div {
+	height: 40px;
 }

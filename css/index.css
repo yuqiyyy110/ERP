@@ -40,3 +40,10 @@
 	overflow: auto;
 	padding: 20px;
 }
+/* fix 动态加载饼图时，没有宽高，放到这提前生效 */
+.deal-case .tab-content .echarts .pie {
+    width: 50%;
+    height: 400px;
+    float: left;
+    padding-left: 10px;
+}

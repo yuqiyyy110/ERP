@@ -1,0 +1,41 @@
+<link rel="stylesheet" type="text/css" href="css/tabs.css">
+<link rel="stylesheet" type="text/css" href="css/dlxxManage.css">
+<link rel="stylesheet" type="text/css" href="js/plug/ztree/css/zTreeStyle/zTreeStyle.css" />
+
+<div class="contRight">
+	<div class="contBox">
+		<dl>
+			<dt class="textRight">
+  					用户名：
+  				</dt>
+			<dt>
+  					<input />
+  				</dt>
+			<dt></dt>
+		</dl>
+		<dl>
+			<dt class="textRight">
+  					密码：
+  				</dt>
+			<dt>
+  					<input type="password" />
+  				</dt>
+			<dt>
+  					<span class="resetPassword">恢复初始密码</span>
+  				</dt>
+		</dl>
+	</div>
+	<div id="resetPasswordBox">
+		<div class="info">您确定恢复初始密码？</div>
+		<div class="btnBox">
+			<span id="cancel">取消</span>
+			<span>确定</span>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+	addJS([
+		js.core,js.excheck,js.treeData
+	]);
+	setPage("dlxxgl");
+</script>

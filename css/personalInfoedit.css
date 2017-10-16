@@ -14,7 +14,7 @@
 
 .delete-info {
 	float: right;
-	background: url("/record/img/personalInfo/delete.png") no-repeat center;
+	background: url(../img/personalInfo/delete.png) no-repeat center;
 	width: 20px;
 	height: 100%;
 	cursor: pointer;
@@ -74,7 +74,7 @@
 	width: 100%;
 }
 
-.maxwidth{
+.maxwidth {
 	width: 24%;
 	float: left;
 }
@@ -122,7 +122,8 @@
 	margin-left: 20px;
 	color: #6497F5 !important;
 }
-.footer{
+
+.footer {
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -130,17 +131,18 @@
 	height: 60px;
 	background: #F7F7F7;
 }
-.btn{
+
+.btn {
 	position: absolute;
 	top: 10px;
 	bottom: 0;
-	
 	right: 10px;
 }
-.btn-blue{
-	border-radius:3px;
+
+.btn-blue {
+	border-radius: 3px;
 	padding: 10px 35px;
-	background:#6897F7;
+	background: #6897F7;
 	color: #fff;
 	border: none;
 	margin: 0 10px;
